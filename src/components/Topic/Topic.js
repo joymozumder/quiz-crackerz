@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Topic.css';
 
 const Topic = ({topic}) => {
@@ -14,7 +15,8 @@ const Topic = ({topic}) => {
                         <Card.Text>
                         <strong>Total Question : </strong>{ total }
                         </Card.Text>
-                        <Button variant="primary" >Start Practice</Button>
+                        
+                        <Link to={`quiz/${id}`}><Button variant="primary" >Start Practice</Button></Link>
                         
                     </Card.Body>
                 </Card>
