@@ -6,6 +6,7 @@ import Main from './layouts/Main';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
 import Statistics from './components/Statistics/Statistics';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -30,6 +31,10 @@ function App() {
         }
       ]
     },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
+    }
   ]);
   return (
     <div className="App">
