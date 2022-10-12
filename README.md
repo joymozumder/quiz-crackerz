@@ -1,4 +1,9 @@
-# Project Description
+# Cool Quizzes
+
+## [Live Site Link](https://storied-kringle-3165c9.netlify.app/)
+
+Click here to see the live site: https://storied-kringle-3165c9.netlify.app/
+## Project Description
 Cool Quizzes is a quiz website where users can practice any topic by attending quizzes. This website has the following features.
 * Homepage has all the topics. By clicking the start practice button of the topic user can attend the quiz.
 * Statistics page has a bar chart of quiz topics vs total questions.
