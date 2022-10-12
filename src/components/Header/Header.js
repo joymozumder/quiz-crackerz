@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className="mb-3"  expand="lg" style={{ backgroundColor: "lightblue" }}>
             <Container>
                 <Link className='text-decoration-none fw-bold' to="/"><Navbar.Brand >Cool Quizzes</Navbar.Brand></Link>
                 

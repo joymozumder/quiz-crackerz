@@ -6,8 +6,7 @@ import './Topic.css';
 const Topic = ({topic}) => {
     const { id, name, logo, total } = topic;
     return (
-        <div>
-            <div >
+            <div>
                 <Card className='p-3' style={{ backgroundColor: "lightblue" }}>
                     <Card.Img variant="top" className='img-fluid' src={ logo } />
                     <Card.Body>
@@ -21,7 +20,6 @@ const Topic = ({topic}) => {
                     </Card.Body>
                 </Card>
             </div>
-        </div>
     );
 };
 

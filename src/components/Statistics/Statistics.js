@@ -23,7 +23,9 @@ const Statistics = () => {
             <Bar dataKey="total" fill="#8884d8" />
           </BarChart>
           </ResponsiveContainer>
+          
         </div>
+        <h4 className = "text-center">Figure: Bar chart of quiz topics vs total questions</h4>
       </Container>
     );
 };
