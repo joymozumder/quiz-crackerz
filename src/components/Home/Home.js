@@ -8,7 +8,8 @@ const Home = () => {
     const topics = useLoaderData().data;
     return (
         <div>
-            <div className="top-banner">
+            <div className="top-banner d-flex justify-content-center align-items-center">
+            <h1 className='top-banner-heading text-white'>"Practice means to perform, over and over again in the face of all obstacles, some act of vision, of faith, of desire. Practice is a means of inviting the perfection desired." – Martha Graham</h1>
             </div>
             <div className="topics-container my-5" >
                 <Container>

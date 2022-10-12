@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import { Button } from 'react-bootstrap';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layouts/Main';
