@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <div>Hello world!</div>,
+    },
+  ]);
   return (
     <div className="App">
-      <Button className ="mt-2" variant="primary">Primary</Button>{' '}
+      <RouterProvider router = {router}></RouterProvider>
     </div>
   );
 }
