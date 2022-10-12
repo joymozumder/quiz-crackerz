@@ -2,12 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './layouts/Main';
+import Home from './components/Home/Home';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Hello world!</div>,
+      element: <Main></Main>,
+      children: [
+        {
+          path: "/",
+          element: <Home></Home>
+        }
+      ]
     },
   ]);
   return (
