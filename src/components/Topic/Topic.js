@@ -8,7 +8,7 @@ const Topic = ({topic}) => {
     return (
         <div>
             <div >
-                <Card className='p-3' style={{ backgroundColor: "#AEBDCA" }}>
+                <Card className='p-3' style={{ backgroundColor: "lightblue" }}>
                     <Card.Img variant="top" className='img-fluid' src={ logo } />
                     <Card.Body>
                         <Card.Title>{ name }</Card.Title>
